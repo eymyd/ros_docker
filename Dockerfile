@@ -9,6 +9,9 @@ RUN apt-get update && apt-get install -q -y \
 
 
 EXPOSE 80
-RUN echo 'source /opt/ros/kinetic/setup.bash' >> .bashrc
+#RUN echo 'source /opt/ros/kinetic/setup.bash' >> .bashrc
+RUN echo 'source /root/catkin_ws/devel/setup.bash' >> .bashrc
+RUN echo 'export DISPLAY=:1.0' >> .bashrc
+
+RUN cp .bashrc /etc/bash.bashrc
 WORKDIR ./catkin_ws
-RUN echo 'source /catkin_ws/devel/setup.bash' >> .bashrc
