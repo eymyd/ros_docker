@@ -5,7 +5,19 @@ FROM ct2034/vnc-ros-kinetic-full
 RUN apt-get update && apt-get install -q -y \
   vim \
   nano \
-    && rm -rf /var/lib/apt/lists/*
+  ros-kinetic-moveit-core \
+  ros-kinetic-controller-manager \
+  ros-kinetic-moveit-planners-ompl \
+  ros-kinetic-realtime-tools \
+  ros-kinetic-moveit-ros-move-group \
+  ros-kinetic-control-toolbox \
+  ros-kinetic-moveit-ros-visualization \
+  ros-kinetic-gazebo-ros-control \
+  ros-kinetic-ros-control \
+  ros-kinetic-ros-controllers \
+    && apt-get dist-upgrade -y && rm -rf /var/lib/apt/lists/*
+
+
 
 
 EXPOSE 80
