@@ -1,0 +1,9 @@
+[submodule "catkin_ws/src/youbot_simulation"]
+	path = catkin_ws/src/youbot_simulation
+	url = https://gitlab.isse.de/robotik/ros/youbot_simulation.git
+[submodule "catkin_ws/src/youbot_description"]
+	path = catkin_ws/src/youbot_description
+	url = https://gitlab.isse.de/robotik/ros/youbot_description.git
+[submodule "catkin_ws/src/youbot_manipulator"]
+	path = catkin_ws/src/youbot_manipulator
+	url = https://gitlab.isse.de/robotik/ros/youbot_manipulator.git
