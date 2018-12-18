@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -q -y \
   ros-kinetic-ros-control \
   ros-kinetic-ros-controllers \
   ros-kinetic-moveit-simple-controller-manager\
+  ros-kinetic-moveit-visual-tools \
     && apt-get dist-upgrade -y && rm -rf /var/lib/apt/lists/*
 
 
