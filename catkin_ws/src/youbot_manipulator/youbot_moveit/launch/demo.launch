@@ -5,6 +5,8 @@
 
   <!-- By default, we are not in debug mode -->
   <arg name="debug" default="false" />
+  
+   <arg name="fake" default="false" />
 
   <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
   <include file="$(find youbot_moveit)/launch/planning_context.launch">
@@ -15,10 +17,12 @@
 
 
   <!-- We do not have a robot connected, so publish fake joint states -->
+  <group if="$(arg fake)">
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     <param name="/use_gui" value="false"/>
     <rosparam param="/source_list">[/move_group/fake_controller_joint_states]</rosparam>
   </node>
+  </group>
 
   <!-- Given the published joint states, publish tf for the robot links -->
   <!-- <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" /> -->
@@ -26,7 +30,7 @@
   <!-- Run the main MoveIt executable without trajectory execution (we do not have controllers configured by default) -->
   <include file="$(find youbot_moveit)/launch/move_group.launch">
     <arg name="allow_trajectory_execution" value="true"/>
-    <arg name="fake_execution" value="false"/>
+    <arg name="fake_execution" value="$(arg fake)"/>
     <arg name="info" value="true"/>
     <arg name="debug" value="$(arg debug)"/>
   </include>
@@ -39,5 +43,7 @@
 
   <!-- If database loading was enabled, start mongodb as well -->
   <include file="$(find youbot_moveit)/launch/default_warehouse_db.launch" if="$(arg db)"/>
+
+<param name="/move_group/ompl/minimum_waypoint_count" type="double" value="100.0" />
 
 </launch>
