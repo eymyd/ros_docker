@@ -6,4 +6,4 @@ docker run --rm \
 	-v $(pwd)/.conf/.gazebo:/root/.gazebo \
 	-e VNC_RESOLUTION=1920x1080 \
 	--name isse-ros \
-	-it  isse-ros
+	-it  eymy/isse-ros
