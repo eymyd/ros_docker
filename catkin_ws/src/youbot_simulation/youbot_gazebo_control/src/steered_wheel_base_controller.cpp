@@ -171,7 +171,7 @@ using std::set;
 using std::string;
 
 using boost::math::sign;
-using boost::shared_ptr;
+using std::shared_ptr;
 
 using controller_interface::ControllerBase;
 
