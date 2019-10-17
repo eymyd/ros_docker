@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t isse-ros --build-arg localbuild=1 .
+docker build -t eymy/isse-ros --build-arg localbuild=1 .
