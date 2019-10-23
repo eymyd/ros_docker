@@ -90,6 +90,8 @@ EXPOSE 80
 WORKDIR /root
 ENV HOME=/home/ubuntu \
     SHELL=/bin/bash
+COPY image/startup.sh /startup.sh
+RUN chmod +x /startup.sh
 ENTRYPOINT ["/startup.sh"]
 
 # install packages
