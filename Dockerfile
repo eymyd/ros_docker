@@ -110,6 +110,9 @@ RUN apt-get update && apt-get install -q -y \
   ros-melodic-ros-controllers \
   ros-melodic-moveit-simple-controller-manager\
   ros-melodic-moveit-visual-tools \
+  ros-melodic-rqt \
+  ros-melodic-rqt-common-plugins \
+  ros-melodic-common-tutorials \
     && apt-get dist-upgrade -y && rm -rf /var/lib/apt/lists/*
 
 
