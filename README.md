@@ -1,5 +1,24 @@
 # ROS_Docker
-Installieren Sie sich Docker auf Ihrem Rechner. 
+Installieren Sie sich Docker auf Ihrem Rechner. Sie brauchen eine außreichende Internetverbindung.
+
+## Instaltion (Windows 10 Education, Professinal)
+https://docs.docker.com/docker-for-windows/install/
+
+## Installation (Windows 7, 8, 10 Home)
+https://docs.docker.com/toolbox/toolbox_install_windows/
+
+## Installation (LINUX)
+https://docs.docker.com/install/linux/docker-ce/debian/
+
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+https://docs.docker.com/install/linux/docker-ce/fedora/
+
+
+## Installation (MAC)
+https://docs.docker.com/docker-for-mac/install/
+
+
 
 ## Datenzugriff erlaufen (WINDOWS)
 Öffnen Sie die Docker-Einstellungen und erlauben Sie den Zugriff auf die Daten
@@ -21,7 +40,12 @@ sh build_docker.sh
 ```
 
 ## Starten des Dockers
-Folgende Skripte können mit dem selbst gebauten Docker-Image oder mit dem Docker-Image aus dem Repository (**wird automatisch beim ersten Starten heruntergeladen (ca. 3GB)**) ausgeführt werden.
+Folgende Skripte können mit dem selbst gebauten Docker-Image oder mit dem Docker-Image aus dem Repository (**wird automatisch beim ersten Starten heruntergeladen (ca. 3GB).**) ausgeführt werden.
+
+Falls es beim Herunterladen oder Starten zu Problemen kommt, können Sie das Herungerladen mit folgendem Befehl anstoßen:
+```bash
+docker pull eymy/isse-ros:latest
+```
 
 ### Starten des Dockers (MAC + LINUX)
 
