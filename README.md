@@ -72,6 +72,8 @@ Führen Sie das start_docker.bat Skript aus:
 ./start_docker.bat
 ```
 
+Achten Sie darauf das im Verzeichnispfad keine Leerzeichen sind.
+
 Sie können sich per VNC auf den Docker verbinden indem Sie folgenden Link aufrufen:
 http://127.0.0.1:6080
 
