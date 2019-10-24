@@ -113,6 +113,7 @@ RUN apt-get update && apt-get install -q -y \
   ros-melodic-rqt \
   ros-melodic-rqt-common-plugins \
   ros-melodic-common-tutorials \
+  ros-melodic-rqt-plot \
     && apt-get dist-upgrade -y && rm -rf /var/lib/apt/lists/*
 
 
