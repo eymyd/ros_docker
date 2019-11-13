@@ -114,9 +114,6 @@ RUN apt-get update && apt-get install -q -y \
   ros-melodic-rqt-common-plugins \
   ros-melodic-common-tutorials \
   ros-melodic-rqt-plot \
-  ros-melodic-turtle-tf2 \
-  ros-melodic-tf2-tools \
-  ros-melodic-tf \
     && apt-get dist-upgrade -y && rm -rf /var/lib/apt/lists/*
 
     RUN apt-get update && apt-get install -q -y \
