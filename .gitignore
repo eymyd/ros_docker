@@ -1,4 +1,5 @@
 /catkin_ws/devel
 /catkin_ws/build
 /.conf/.gazebo/*
+/.conf/.clion/*
 **/.DS_Store
