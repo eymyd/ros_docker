@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/root/catkin_ws/src/.idea/encodings.xml" timestamp="1574357598000" />
+    <file path="/root/catkin_ws/src/.idea/misc.xml" timestamp="1574357685000" />
+    <file path="/root/catkin_ws/src/.idea/modules.xml" timestamp="1574357598000" />
+    <file path="/root/catkin_ws/src/.idea/src.iml" timestamp="1574357600000" />
+    <file path="/root/catkin_ws/src/.idea/workspace.xml" timestamp="1576061436000" />
+  </project-files>
+</conversion>
+

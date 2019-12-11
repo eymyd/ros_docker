@@ -124,7 +124,11 @@ RUN apt-get update && apt-get install -q -y \
         && apt-get dist-upgrade -y && rm -rf /var/lib/apt/lists/*
 
 
-
+ADD https://download.jetbrains.com/cpp/CLion-2018.3.4.tar.gz /opt
+RUN tar -xzf /opt/CLion-2018.3.4.tar.gz -C /opt
+RUN sed -i '1s$^.*$#!/bin/bash$' /opt/clion-2018.3.4/bin/clion.sh
+RUN sed -i '2isource /opt/ros/melodic/setup.bash' /opt/clion-2018.3.4/bin/clion.sh
+RUN sed -i '3isource /root/catkin_ws/devel/setup.bash' /opt/clion-2018.3.4/bin/clion.sh
 
 EXPOSE 80
 #RUN echo 'source /opt/ros/kinetic/setup.bash' >> .bashrc

@@ -1,0 +1,94 @@
+signer_componentsabstractnewformwidgetabstractwidgetfactoryqdesignerexportwidgetabstractformwindowtoolabstractpropertyeditorabstractwidgetdatabaseQAbstractExtensionFactoryQAbstractExtensionManagerQDesignerDnDItemInterfaceabstractobjectinspectorabstractresourcebrowserQDesignerLanguageExtensionQDesignerSettingsInterfaceQDesignerTaskMenuExtensionabstractformeditorpluginabstractformwindowcursordefault_extensionfactoryQDesignerContainerExtensionQDesignerExtraInfoExtensionQDesignerPromotionInterfaceQDesignerWidgetBoxInterfaceabstractformwindowmanagerQDesignerFormEditorInterfaceQDesignerFormWindowInterfaceabstractpromotioninterface QDesignerIntegrationInterface QDesignerMemberSheetExtension QDesignerOptionsPageInterfaceqdesigner_components_global!QDesignerActionEditorInterface!QDesignerCustomWidgetInterface!QDesignerMetaDataBaseInterface"QDesignerNewFormWidgetInterface"QDesignerPropertySheetExtension"QDesignerWidgetFactoryInterface# QDesignerFormWindowToolInterface# QDesignerPropertyEditorInterface# QDesignerWidgetDataBaseInterface$!QDesignerObjectInspectorInterface$!QDesignerResourceBrowserInterface%"QDesignerFormEditorPluginInterface%"QDesignerFormWindowCursorInterface%"QDesignerLayoutDecorationExtension%"QDesignerMetaDataBaseItemInterface&#QDesignerFormWindowManagerInterface'$QDesignerWidgetDataBaseItemInterface)&QDesignerDynamicPropertySheetExtension+(QDesignerCustomWidgetCollectionInterface
+QtQmlDebug
+QtQmlDebugQtQmlDebugDependsQtQmlDebugVersionqtqmldebugversion
+QtUiPlugin
+QtUiPlugincustomwidgetQtUiPluginDependsQtUiPluginVersionqtuipluginversionQDesignerExportWidgetqdesignerexportwidget!QDesignerCustomWidgetInterface+(QDesignerCustomWidgetCollectionInterfaceQtQuickTestQtQuickTest	quicktestquicktestglobalQtQuickTestDependsQtQuickTestVersionqtquicktestversionQtX11ExtrasQX11InfoQtX11Extrasqx11info_x11QtX11ExtrasDependsQtX11ExtrasVersionqtx11extrasglobalqtx11extrasversionQtConcurrentQtConcurrentQtConcurrentMapQtConcurrentRunqtconcurrentmapqtconcurrentrunQtConcurrentFilterQtConcurrentVersionqtconcurrentfilterqtconcurrentmedianqtconcurrent_globalqtconcurrentrunbaseqtconcurrentversionqtconcurrentexceptionqtconcurrentmapkernelqtconcurrentcompilertestqtconcurrentfilterkernelqtconcurrentreducekernelqtconcurrentthreadengineqtconcurrentiteratekernelqtconcurrentfunctionwrappers!qtconcurrentstoredfunctioncallQtPrintSupportQPrinterqprinterQPrintDialogQPrintEngineQPrinterInfoQtPrintSupportqprintdialogqprintengineqprinterinfoQPageSetupDialogqpagesetupdialogQPrintPreviewDialogQPrintPreviewWidgetQAbstractPrintDialogQtPrintSupportVersionqprintpreviewdialogqprintpreviewwidgetqabstractprintdialogqtprintsupportglobalqtprintsupportversionQtQuickWidgetsQQuickWidgetQtQuickWidgetsqquickwidgetQtQuickWidgetsDependsQtQuickWidgetsVersionqtquickwidgetsglobalqtquickwidgetsversionQtWebKitWidgetsQWebPageQWebView	QWebFrameqwebpageqwebview	qwebframeQWebInspectorQtWebKitWidgetsqwebinspectorQGraphicsWebViewQWebHitTestResultqgraphicswebviewQtWebKitWidgetsDependsQtWebKitWidgetsVersionqtwebkitwidgetsversionQtPacketProtocolQtPacketProtocolQtPacketProtocolDependsQtPacketProtocolVersionqtpacketprotocolversionQtQuickParticlesQtQuickParticlesQtQuickParticlesDependsQtQuickParticlesVersionqtquickparticlesversionQtPlatformHeadersQEglFSFunctionsQEGLNativeContextQGLXNativeContextQWGLNativeContextQtPlatformHeadersqeglfsfunctionsQCocoaNativeContextQXcbScreenFunctionsQXcbWindowFunctionsqeglnativecontextqglxnativecontextqwglnativecontextQCocoaWindowFunctionsQPlatformHeaderHelperqcocoanativecontextqxcbscreenfunctionsqxcbwindowfunctionsQWaylandWindowFunctionsQWindowsWindowFunctionsqcocoawindowfunctionsqplatformheaderhelperQXcbIntegrationFunctionsQtPlatformHeadersVersionqwaylandwindowfunctionsqwindowswindowfunctionsqtplatformheadersversionqxcbintegrationfunctionsQtOpenGLExtensionsQOpenGLExtensionsQtOpenGLExtensionsqopenglextensionsQtOpenGLExtensionsVersionqtopenglextensionsversionQtDesignerComponents5.9QtDesignerComponents
+private
+lib_pchQtDesignerComponentsQtDesignerComponentsDependsQtDesignerComponentsVersionqtdesignercomponentsversionsysiokdunvtdirelfipcmsgpcirawregsemshmuiovfsacctauxvfilegmonklogmmanmtiopermpollstatswaptimeuservm86waitcdefsepollerrnofcntlfsuidioctlmountparamprctlqueuequotatimebtimestimextypesustatxattr	procfs	profil	ptrace	random	reboot	select	signal	socket	statfs	sysctl	syslog	unistd	vlimit	vtimes
+bitypes
+eventfd
+inotify
+statvfs
+stropts
+syscall
+sysinfo
+termios
+timerfd
+utsnamedebugregfanotifygmon_outresourcesendfilesignalfdttycharsucontext	socketvar	soundcard	sysmacrospersonalityttydefaultsbitsinipcmsqsemshmtypesFILE	__FILE	time_t	wint_t
+clock_t
+stack_t
+timer_tlocale_tsigset_tsigval_t	clockid_t	mbstate_t	res_state	siginfo_t	struct_tm
+__locale_t
+__sigset_t
+__sigval_t
+sigevent_t__mbstate_tsig_atomic_tstruct_iovecstruct_rusagestruct_timevalstruct_sigstackstruct_timespecstruct_osockaddrstruct_itimerspecauxvfenvlinkmmanpollstattimeutmpa.outdlfcnepollerrnoerrorfcntlhwcaplibionetdbparampoll2schedstdiotimextypesustatutmpxwchar	dirent	endian	fcntl2	floatn	ioctls	locale	mqueue	select	setjmp	signum	socketstab	statfs	stdio2	stdlib	sysctl	syslog	unistd	wchar2
+cpu-set
+eventfd
+fp-fast
+fp-logb
+inotify
+mathdef
+mqueue2
+select2
+setjmp2
+socket2
+statvfs
+stropts
+syscall
+termios
+timerfd
+uio-ext
+uio_lim
+utsnamebyteswapconfnameelfclassinitspinipctypesresourcesignalfdsigstacksockaddrss_flagswordsizextitypes	_G_config	local_lim	mathcalls	posix_opt	semaphore	sigaction	sigthread	stdio_lim	sysmacros	typesizes	waitflags	xopen_lim
+cmathcalls
+fenvinline
+getopt_ext
+libio-ldbl
+mathinline
+mman-linux
+posix1_lim
+posix2_lim
+sigcontext
+stdio-ldbl
+waitstatus
+wchar-ldblbyteswap-16fcntl-linuxgetopt_coreioctl-typesiscanonicallong-doublemath-finitemath-vectormman-sharedprintf-ldblsocket_typestdint-intnstdlib-ldblsys_errlistsyslog-ldblsyslog-pathenvironmentsgetopt_posixpthreadtypessiginfo-archstdint-uintnstdlib-floatwctype-wcharfloatn-commonmonetary-ldblptrace-sharedsiginfo-constssignum-genericstdlib-bsearchuintn-identityflt-eval-methodsigevent-constsstring_fortifiedlibc-header-startpthreadtypes-archstrings_fortifiedsiginfo-consts-archthread-shared-typeslibm-simd-decl-stubsmathcalls-helper-functionscurlcurleasymulti	system
+curlver
+mprintfstdcheaderstypecheck-gcchwloc
+autogen	configtiffa.outcblasgpgrt
+openssl	tiffio
+ieee754
+jconfig	libavutilaescpucrcdeslfgloglzomd5memoptrc4shateadictevalfifofilehashhmactimetreexteabswapcast5errorframe	avutil	base64	bprint	buffer	common	macros	pixfmt	ripemd	sha512
+adler32
+aes_ctr
+display
+murmur3
+pixdesc
+twofish
+versionavassertavconfigavstringblowfishcamelliaimgutilsintfloatrationalstereo3dtimecode	ffversion	hwcontext	samplefmt	spherical	timestamp
+attributes
+audio_fifo
+parseutils
+pixelutils
+replaygainmathematicsrandom_seeddownmix_infointreadwritehwcontext_drmhwcontext_qsvmotion_vectorthreadmessagechannel_layouthwcontext_cudahwcontext_dxva2hwcontext_vaapihwcontext_vdpauhwcontext_d3d11vahwcontext_videotoolboxmastering_display_metadata
+python2pyconfig
+zipconf
+libavcodecjniqsvvdaxvmcavdctavfftdiracdxva2vaapivdpau
+avcodec
+d3d11va
+version
+dv_profile
+mediacodecvideotoolboxvorbis_parser
+libswscale
+swscale
+version
+python3tiffconf	tiffiotiffvers	cblas_f77	gpg-errorlibavdevice
+versionavdevicelibavfilter
+versionavfilter	buffersrc
+buffersinkavfiltergraphlibavformatavio
+versionavformatlibpostproc
+versionpostprocessfpu_controllibavresample
+version
+avresamplelibswresample
+version
+swresamplecblas-netlibexpat_configunixodbc_confcblas_manglinglibtar_listhashpcmanfm-moduleswayland-versiongtk-unix-print-2gtk
+gtkprintergtkprintjobgtkunixprintgtkprintunixdialoggtkpagesetupunixdialogpcre_stringpiecewayland-egl-coreorg_proj4_PJ_Typespatialite_privatewayland-client-corewayland-server-coreconsole_bridge_exportorg_proj4_Projectionswayland-client-protocolwayland-server-protocolsrc.e156e0d8draw_square_nodedraw_square_nodedraw_square_nodedraw_square_nodedraw_square_node

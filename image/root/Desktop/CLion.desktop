@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=CLion
+Comment=CLion
+TryExec=/opt/clion-2018.3.4/bin/clion.sh
+Exec=/opt/clion-2018.3.4/bin/clion.sh
+Icon=/opt/clion-2018.3.4/bin/clion.png
+Type=Application
+Categories=GNOME;GTK;Utility;TerminalEmulator;System;
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=terminator
+X-Ayatana-Desktop-Shortcuts=NewWindow;
+Keywords=terminal;shell;prompt;command;commandline;
+[NewWindow Shortcut Group]
+Name=Open a New Window
+Exec=terminator
+TargetEnvironment=Unity

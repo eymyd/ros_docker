@@ -1,0 +1,4 @@
+catkin_make
+cd
+cd catkin_ws/
+catkin_make
