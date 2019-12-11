@@ -99,6 +99,7 @@ RUN apt-get update && apt-get install -q -y \
   vim \
   nano \
   ros-melodic-moveit-core \
+  ros-melodic-moveit-commander \
   ros-melodic-controller-manager \
   ros-melodic-moveit-planners-ompl \
   ros-melodic-realtime-tools \
