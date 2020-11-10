@@ -59,6 +59,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # bootstrap rosdep
+RUN apt-get update && apt-get install -y python-rosdep
 RUN rosdep init \
     && rosdep update
 
