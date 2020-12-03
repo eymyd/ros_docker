@@ -124,7 +124,8 @@ RUN apt-get update && apt-get install -q -y \
       ros-melodic-tf \
       evince \
         && apt-get dist-upgrade -y && rm -rf /var/lib/apt/lists/*
-
+ADD  https://az764295.vo.msecnd.net/stable/e5a624b788d92b8d34d1392e4c4d9789406efe8f/code_1.51.1-1605051630_amd64.deb /opt
+RUN dpkg -i /opt/code_1.51.1-1605051630_amd64.deb && apt install -f
 
 ADD https://download.jetbrains.com/cpp/CLion-2018.3.4.tar.gz /opt
 RUN tar -xzf /opt/CLion-2018.3.4.tar.gz -C /opt

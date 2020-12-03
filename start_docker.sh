@@ -5,6 +5,7 @@ docker run --rm \
 	-v $(pwd)/catkin_ws:/root/catkin_ws \
 	-v $(pwd)/.conf/.gazebo:/root/.gazebo \
 	-v $(pwd)/.conf/.clion:/root/.CLion2018.3 \
+	-v $(pwd)/.conf/.vscode:/root/.vscode \
 	-e VNC_RESOLUTION=1920x1080 \
 	--name isse-ros \
 	-it  eymy/isse-ros
