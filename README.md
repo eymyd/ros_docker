@@ -23,20 +23,6 @@ https://docs.docker.com/docker-for-mac/install/
 ![](img/img.png)
 
 
-## Build Docker (OPTIONIAL)
-Falls Sie das Docker-Image selber bauen wollen führen Sie folgende Schritte aus, anderenfalls wird ein bereits gebautes Docker-Images vom Repository downgeloaded.
-### Build Docker (MAC + LINUX)
-Öffnen Sie eine Terminal im Repository und führen Sie das build_docker.sh Skript aus:
-```bash
-sh build_docker.sh
-```
-
-### Build Docker (WINDOWS)
-Öffnen Sie eine Powershell im Repository und führen Sie das build_docker.bat Skript aus:
-```
-.\build_docker.bat
-```
-
 ## Starten des Dockers
 Folgende Skripte können mit dem selbst gebauten Docker-Image oder mit dem Docker-Image aus dem Repository (**wird automatisch beim ersten Starten heruntergeladen (ca. 3GB).**) ausgeführt werden.
 
@@ -81,6 +67,20 @@ localhost:5900
 Um eine Konsole ohne VNC des Docker-Images zu öffnen muss der Docker laufen.
 ```
 ./open_shell.bat
+```
+
+## Build Docker (OPTIONIAL)
+Falls Sie das Docker-Image selber bauen wollen führen Sie folgende Schritte aus, anderenfalls wird ein bereits gebautes Docker-Images vom Repository downgeloaded.
+### Build Docker (MAC + LINUX)
+Öffnen Sie eine Terminal im Repository und führen Sie das build_docker.sh Skript aus:
+```bash
+sh build_docker.sh
+```
+
+### Build Docker (WINDOWS)
+Öffnen Sie eine Powershell im Repository und führen Sie das build_docker.bat Skript aus:
+```
+.\build_docker.bat
 ```
 
 
