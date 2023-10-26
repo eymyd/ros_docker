@@ -1,11 +1,9 @@
+Klonen Sie dieses Repository auf Ihren Rechner. Für die Ausführung benötigen Sie Docker (siehe _**ROS_Docker**_). Alle Befehle bis auf die Docker Installation müssen in dem geklonten Ordner ausgeführt werden. Nachdem Sie Docker installiert haben können Sie mit _**Starten des Dockers**_ fortfahren.
 # ROS_Docker
 Installieren Sie sich Docker auf Ihrem Rechner. Sie brauchen eine außreichende Internetverbindung.
 
-## Instaltion (Windows 10 Education, Professinal)
+## Installtion (Windows)
 https://docs.docker.com/docker-for-windows/install/
-
-## Installation (Windows 7, 8, 10 Home)
-https://docs.docker.com/docker-for-windows/install-windows-home/
 
 ## Installation (LINUX)
 https://docs.docker.com/install/linux/docker-ce/debian/
