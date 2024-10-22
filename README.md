@@ -18,6 +18,8 @@ https://docs.docker.com/docker-for-mac/install/
 
 
 ## Starten des Dockers
+Für die Ausführung des Skriptes muss Docker im Hintergrund ausgeführt werden!
+
 Folgende Skripte können mit dem selbst gebauten Docker-Image oder mit dem Docker-Image aus dem Repository (**wird automatisch beim ersten Starten heruntergeladen (ca. 3GB).**) ausgeführt werden.
 
 Falls es beim Herunterladen oder Starten zu Problemen kommt, können Sie das Herungerladen mit folgendem Befehl anstoßen:
