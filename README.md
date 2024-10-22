@@ -47,7 +47,7 @@ sh open_shell.sh
 ##
 ### Starten des Dockers (Windows)
 
-Führen Sie das start_docker.bat Skript aus:
+Führen Sie das start_docker.bat Skript in der CMD aus (Navigieren Sie hierfür in das heruntergeladene Verzeichnis!):
 ```
 start_docker.bat
 ```
