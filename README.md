@@ -17,12 +17,6 @@ https://docs.docker.com/install/linux/docker-ce/fedora/
 https://docs.docker.com/docker-for-mac/install/
 
 
-
-## Datenzugriff erlaufen (WINDOWS)
-Öffnen Sie die Docker-Einstellungen und erlauben Sie den Zugriff auf die Daten
-![](img/img.png)
-
-
 ## Starten des Dockers
 Folgende Skripte können mit dem selbst gebauten Docker-Image oder mit dem Docker-Image aus dem Repository (**wird automatisch beim ersten Starten heruntergeladen (ca. 3GB).**) ausgeführt werden.
 
