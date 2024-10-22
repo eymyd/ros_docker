@@ -49,7 +49,7 @@ sh open_shell.sh
 
 Führen Sie das start_docker.bat Skript aus:
 ```
-./start_docker.bat
+start_docker.bat
 ```
 
 Achten Sie darauf das im Verzeichnispfad keine Leerzeichen sind.
@@ -62,7 +62,7 @@ localhost:5900
 
 Um eine Konsole ohne VNC des Docker-Images zu öffnen muss der Docker laufen.
 ```
-./open_shell.bat
+open_shell.bat
 ```
 
 ## Build Docker (OPTIONIAL)
